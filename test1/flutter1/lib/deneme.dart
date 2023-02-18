@@ -88,4 +88,37 @@ void main() {
   mesaj2 =
       " \"Merhaba\" umarım \'bugün\' çok iyisinizdir. \n \t     Kitabınızı \\okudunuz\\  mu?";
   print(mesaj2);
+
+  //Aritmetik İşlemler
+  //1. Dairenin alanı
+  double r = 2.0;
+  final pi1 = 3.14;
+  var alan = (pi1 * r * r);
+  print("Dairenin alanı: $alan");
+  //F=m*a
+  double m = 12.5;
+  var a = 7.0; //7
+  var f = (m * a);
+  print("F değeri sonucu: $f");
+  //Δx1=dx1=[(v+v0)/2]*t
+  var v = 10;
+  double v0 = 2.3;
+  double t = 7.8;
+  var dx1 = ((v + v0) / 2) * t;
+  print("Δx1=dx1 değeri: $dx1");
+  //Δx2=dx2=v0*t+1/2*b*t*t üstteki değerlerle beraber ortak bir formül çalışması.
+  var b = 17;
+  var dx2 = (v0 * t) + (0.5 * b * t * t);
+  print("Δx2=dx2 değeri: $dx2");
+
+  int z = 10;
+  z = z + 2; //12
+  z += 2; //14
+  print("z değeri : $z");
+  z *= 2;
+  z -= 3;
+  print("25 beklenir: $z");
+  var h = z / 5;
+  h++;
+  print(h);
 }
