@@ -5,7 +5,7 @@ void main() {
   var nesne1 = Odev();
 
   double t = nesne1.sicaklik(14.0);
-  print("Sıcaklık fahrenhitt:  $t");
+  print("Sıcaklık fahrenheitt:  $t");
 
   //Odev 2 dikdörtgen çevresi
   var nesne2 = Odev();
