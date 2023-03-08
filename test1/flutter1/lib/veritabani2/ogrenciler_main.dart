@@ -13,10 +13,12 @@ void main() {
 
   //print
   print("Öğrenci id: ${ogrenci1.ogr_id}");
-  print("Müşteri adi: ${ogrenci1.ogr_ad}");
+  print("Öğrenci adi: ${ogrenci1.ogr_ad}");
   print("Öğrenci soyadı: ${ogrenci1.ogr_soyad}");
   print("Hoca ad: ${ogrenci1.hocas.hoca_adi}");
   print("Ders adi: ${ogrenci1.derss.ders_adi}");
   //print("Hoca id: ${ogrenci1.hocas.hoca_id}");
   //print("Ders id: ${ogrenci1.derss.der_ids}");
 }
+
+
